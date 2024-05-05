@@ -1,0 +1,5 @@
+.page_1{
+  width: 100vw;
+  height: calc(100vh - var(--nav_height));
+  background: #3E6B60;
+}

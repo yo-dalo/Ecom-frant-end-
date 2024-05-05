@@ -1,0 +1,23 @@
+:root{
+  --nav_height:7vw;
+  
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,html{
+  width: 100%;
+  height: 100%;
+}
+main{
+  
+}
+.nav{
+  width: 100vw;
+  height: var(--nav_height);
+  background: #8F8F8F;
+}
