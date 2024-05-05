@@ -1,3 +1,26 @@
+@font-face {
+    font-family: apple;
+    src: url('../SF-Pro-Text-Regular.otf');
+}
+
+@font-face {
+    font-family: apple_1;
+    src: url('../SF-Pro-Text-Medium.otf');
+}
+
+@font-face {
+    font-family: apple_2;
+    src: url('../SF-Pro-Text-Light.otf');
+}
+
+@font-face {
+    font-family: apple_3;
+    src: url('../SF-Pro-Text-Bold.otf');
+}
+
+
+
+
 :root{
   --nav_height:7vw;
   
@@ -13,6 +36,13 @@ body,html{
   width: 100%;
   height: 100%;
 }
+
+img,svg,video{
+  width: 100%;
+  height: 1000%;
+  object-fit: cover;
+}
+
 main{
   
 }
