@@ -3,3 +3,8 @@
   height: calc(100vh - var(--nav_height));
   background: #3E6B60;
 }
+.page_1 .Swiper-_{
+  width: 100vw;
+  height: 30vw;
+  background: #FF7F7F;
+}
