@@ -1,7 +1,7 @@
 .page_1{
   width: 100vw;
   height: calc(100vh - var(--nav_height));
-  background: #3E6B60;
+  background: var(--bg_1);
 }
 .page_1 .Swiper-_{
   width: 100vw;
@@ -20,6 +20,9 @@
   text-align: center;
   font-family: apply_3;
   font-size: 3vw;
+  font-weight: 900;
+  text-transform: uppercase;
+  
 }
 .shop_info .shop_info_{
   display: flex;
@@ -27,6 +30,7 @@
   justify-content: center;
   width: 100%;
   height: 100%;
+  padding: 2vw 0;
 }
 .shop_info .shop_info_ .left{
   width: 50%;
@@ -60,3 +64,4 @@
   
   
 }
+
